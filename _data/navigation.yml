@@ -38,7 +38,7 @@ documentation:
         url: /documentation/installation-sidecar-plugin/
       - title: "Profiling Lists"
         url: /documentation/upgrading/
-        - title: "URL Maps"
+      - title: "URL Maps"
         url: /documentation/installation-sidecar-plugin/
       - title: "WAF Profiles"
         url: /documentation/upgrading/
