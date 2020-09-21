@@ -3,7 +3,7 @@ main:
   - title: "Home"
     url: https://https://opencurie.github.io/
   - title: "Documentation"
-    url: https://opencurie.github.io/documentation/
+    url: https://opencurie.github.io/documentation/introduction/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
@@ -13,20 +13,20 @@ main:
   # - title: "Sitemap"
   #   url: /sitemap/
   
-manual:
+documentation:
   - title: Welcome to Curiefense
     children:
       - title: "Introduction"
-        url: /docs/introduction/
+        url: /documentation/introduction/
   - title: Installation
     children:
       - title: "Initial Steps"
-        url: /docs/installation-initial/
+        url: /documentation/installation-initial/
       - title: "Reverse Proxy"
-        url: /docs/installation-reverse-proxy/
+        url: /documentation/installation-reverse-proxy/
       - title: "Sidecar Plugin"
-        url: /docs/installation-sidecar-plugin/
+        url: /documentation/installation-sidecar-plugin/
       - title: "Upgrading"
-        url: /docs/upgrading/
+        url: /documentation/upgrading/
 
   
