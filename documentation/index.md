@@ -5,7 +5,7 @@ sidebar:
   nav: "documentation"
 ---
 
-![Curiefense logo](/assets/images/9_open_icon.png "Curiefense logo"){: width=50% height=50% style="float:left; padding:16px"}
+![Curiefense logo](/assets/images/9_open_icon.png "Curiefense logo"){: style="float:left; padding:16px; width:25%; height:25%;"}
 
 Curiefense is an API-first, DevOps oriented web-defense HTTP-Filter adapter for Envoy. It provides next-generation WAF capabilities and real-time traffic monitoring and transparency.
 
