@@ -3,7 +3,7 @@ main:
   - title: "Home"
     url: https://https://opencurie.github.io/
   - title: "Documentation"
-    url: https://opencurie.github.io/documentation/introduction/
+    url: https://opencurie.github.io/documentation/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
@@ -17,7 +17,7 @@ documentation:
   - title: Welcome to Curiefense
     children:
       - title: "Introduction"
-        url: /documentation/introduction/
+        url: /documentation/
   - title: Installation
     children:
       - title: "Initial Steps"
