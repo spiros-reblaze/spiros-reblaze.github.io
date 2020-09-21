@@ -32,7 +32,11 @@ If you create an installation workflow for a situation that is not currently des
 
 Curiefense provides traffic filtering that can be configured differently for multiple environments, all of which can be administered from one central cluster if desired. Here is an overview of its components.
 
+![Curiefense architecture](/documentation/images/Architecture.png "Curiefense architecture")
+
 Here's a more detailed view:
+
+![Curiefense details](/documentation/images/Architecture-details.png "Curiefense details")
 
 In this diagram, a single cluster is shown. Multiple-cluster architectures are also possible.
 
@@ -41,8 +45,11 @@ In this diagram, a single cluster is shown. Multiple-cluster architectures are a
 # Three Primary Roles
 
 Conceptually, there are three primary roles performed by Curiefense:
+
 - Configuration (allowing admins to define security policies, assign them to URLs, etc.)
+
 - Filtering (applying the defined Configurations to incoming traffic and blocking hostile requests)
+
 - Monitoring (displaying traffic data in real-time and in historical logs).
 
 ---
@@ -54,6 +61,8 @@ Conceptually, there are three primary roles performed by Curiefense:
 Curiefense maintains its security parameters as Entries, which are contained in Documents, which are contained in Configurations.
 
 A Configuration is a complete definition of Curiefense's behavior for a specific environment. An organization can maintain multiple Configurations (e.g., development, staging, and production).
+
+![Curiefense data structure](/documentation/images/Data-structure.png "Curiefense data structure")
 
 Each Configuration contains six Documents (one of each type: ACL Profiles, Rate Limits, etc.) Each Document contains at least one Entry, i.e., an individual security rule or definition. Documents are edited and managed in the Document Editor.
 
@@ -71,6 +80,8 @@ The second architectural diagram above shows the information flow for a single-c
 When a Configuration is created or modified, the admin pushes it to a Cloud Storage bucket. The curiesync container monitors its specified bucket(s); when a change is pushed to the bucket(s), curiesync will update the curiefense Envoy plugins.
 
 An important feature of Curiefense is simultaneous publishing to multiple environments. 
+
+![Curiefense and multiple environments](/documentation/images/Architecture-Multiple-buckets.png "Curiefense and multiple environments")
 
 When a Configuration is published, it can be pushed to multiple buckets (each of which can be monitored by one or more environments) all at once, from a single button-push or API call.
 
