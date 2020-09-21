@@ -13,7 +13,7 @@ main:
   # - title: "Sitemap"
   #   url: /sitemap/
   
-  docs:
+docs:
   - title: Welcome to Curiefense
     children:
       - title: "Introduction"
@@ -21,13 +21,11 @@ main:
   - title: Installation
     children:
       - title: "Initial Steps"
-        url: /docs/initial-installation/
+        url: /docs/installation-initial/
       - title: "Reverse Proxy"
-        children:
-           - title: "Reverse Proxy"
-           url: /docs/structure/
-      - title: "Installation"
-        url: /docs/installation/
+        url: /docs/installation-reverse-proxy/
+      - title: "Sidecar Plugin"
+        url: /docs/installation-sidecar-plugin/
       - title: "Upgrading"
         url: /docs/upgrading/
 
