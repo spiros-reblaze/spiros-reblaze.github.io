@@ -13,7 +13,7 @@ main:
   # - title: "Sitemap"
   #   url: /sitemap/
   
-docs:
+manual:
   - title: Welcome to Curiefense
     children:
       - title: "Introduction"
