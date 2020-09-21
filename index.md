@@ -4,7 +4,7 @@ title: CurieFense
 author_profile: true
 ---
 
-### _(kiri-fense)_
+<span style="text-align:center;"><em>(kiri-fense)</em></span>
 
 Curiefense is an open source security suite that introduces session profiling, human detection, bot management and OWASP top 10 protection (aka WAF) for Envoy Proxy.
 
