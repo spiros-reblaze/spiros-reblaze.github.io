@@ -28,7 +28,26 @@ documentation:
         url: /documentation/installation-sidecar-plugin/
       - title: "Upgrading"
         url: /documentation/upgrading/
-  
+  - title: "Console"
+    children:
+      - title: "Document Editor Overview"
+        url: /documentation/installation-initial/
+      - title: "ACL Profiles"
+        url: /documentation/installation-reverse-proxy/
+      - title: "Rate Limits"
+        url: /documentation/installation-sidecar-plugin/
+      - title: "Profiling Lists"
+        url: /documentation/upgrading/
+        - title: "URL Maps"
+        url: /documentation/installation-sidecar-plugin/
+      - title: "WAF Profiles"
+        url: /documentation/upgrading/
+      - title: "WAF Signatures"
+        url: /documentation/upgrading/
+      - title: "System Settings"
+        url: /documentation/upgrading/
+      - title: "Publish Configuration"
+        url: /documentation/upgrading/
 
 
 
