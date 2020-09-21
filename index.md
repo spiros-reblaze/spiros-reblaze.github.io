@@ -10,7 +10,7 @@ Curiefense is an open source security suite that introduces session profiling, h
 <a href="https://www.reblaze.com/">Reblaze Technologies</a>
 
 ## Used by
-12 clients.
+Cisco, among others.
 
 ## Why Curiefense?
 
