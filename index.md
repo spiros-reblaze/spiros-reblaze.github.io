@@ -1,6 +1,6 @@
 ---
 layout: home
-title: CurieFense
+title: Curiefense
 author_profile: true
 ---
 
@@ -17,8 +17,11 @@ Curiefense is an open source security suite that introduces session profiling, h
 
 ## Why Curiefense?
 
-OpenCurie can run in a wide variety of environments: cloud, on-prem, hybrid, and serverless. It works in VMs, containers, and service meshes.
-OpenCurie is a fully automated system that integrates with the toolchains you already use and runs inside your perimeter. There is no compromise on security or privacy, and you don’t need to share your private keys or expose your user data to any third party whatsoever.
+- It can run in a wide variety of environments: cloud, on-prem, hybrid, and serverless. It works in VMs, containers, and service meshes.
+
+- It's a fully automated system that integrates with the toolchains you already use and runs inside your perimeter. 
+
+- There is no compromise on security or privacy, and you don’t need to share your private keys or expose your user data to any third party whatsoever.
 
 ## Features
 
@@ -32,8 +35,6 @@ OpenCurie is a fully automated system that integrates with the toolchains you al
 - Full traffic transparency (shows all details of all incoming HTTP requests)
 - Real-time dashboard and graphical reporting using Prometheus and Grafana
 - And more.
-
-
 - Custom cloud functions (execution of user-supplied Lua functions during traffic processing)
 - Mobile/native client-side SDK
 
