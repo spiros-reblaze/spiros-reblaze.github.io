@@ -93,7 +93,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "CurieFense"
+  name             : 
   avatar           : /assets/images/9_open_icon.png # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "<em>(kiri-fence)</em>: An Envoy web security plugin"
   location         : 
