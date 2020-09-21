@@ -1,5 +1,6 @@
 ---
 layout: home
+permalink: /documentation/
 sidebar:
   nav: "documentation"
 ---
