@@ -28,52 +28,7 @@ documentation:
         url: /documentation/installation-sidecar-plugin/
       - title: "Upgrading"
         url: /documentation/upgrading/
-  - title: "Console"
-    children:
-      - title: "Document Editor Overview"
-        url: /documentation/installation-initial/
-      - title: "ACL Profiles"
-        url: /documentation/installation-reverse-proxy/
-      - title: "Rate Limits"
-        url: /documentation/installation-sidecar-plugin/
-      - title: "Profiling Lists"
-        url: /documentation/upgrading/
-        - title: "URL Maps"
-        url: /documentation/installation-sidecar-plugin/
-      - title: "WAF Profiles"
-        url: /documentation/upgrading/
-      - title: "WAF Signatures"
-        url: /documentation/upgrading/
-      - title: "System Settings"
-        url: /documentation/upgrading/
-      - title: "Publish Configuration"
-        url: /documentation/upgrading/
-  - title: "Analytics"
-    children:
-      - title: "Access Log"
-        url: /documentation/installation-initial/
-      - title: "Traffic Overview"
-        url: /documentation/installation-reverse-proxy/
-      - title: "Top Activities"
-        url: /documentation/installation-sidecar-plugin/
-      - title: "Events & Attacks"
-        url: /documentation/installation-sidecar-plugin/
-  - title: "API"
-    children:
-      - title: "Introduction"
-        url: /documentation/installation-initial/
-      - title: "API Namespaces and Endpoints"
-        url: /documentation/installation-reverse-proxy/
-      - title: "cURL and CLI Tool"
-        url: /documentation/installation-reverse-proxy/
-  - title: "Reference"
-    children:
-      - title: "The Challenge Process"
-        url: /documentation/installation-initial/
-      - title: "Multi-Stage Traffic Filtering"
-        url: /documentation/installation-reverse-proxy/
-      - title: "Tags"
-        url: /documentation/installation-reverse-proxy/
+  
 
 
 
