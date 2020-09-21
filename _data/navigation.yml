@@ -14,11 +14,11 @@ main:
   #   url: /sitemap/
   
 documentation:
-  - title: Welcome to Curiefense
+  - title: "Welcome to Curiefense"
     children:
       - title: "Introduction"
         url: /documentation/
-  - title: Installation
+  - title: "Installation"
     children:
       - title: "Initial Steps"
         url: /documentation/installation-initial/
@@ -28,7 +28,7 @@ documentation:
         url: /documentation/installation-sidecar-plugin/
       - title: "Upgrading"
         url: /documentation/upgrading/
-  - title: Console
+  - title: "Console"
     children:
       - title: "Document Editor Overview"
         url: /documentation/installation-initial/
@@ -48,7 +48,7 @@ documentation:
         url: /documentation/upgrading/
       - title: "Publish Configuration"
         url: /documentation/upgrading/
-  - title: Analytics
+  - title: "Analytics"
     children:
       - title: "Access Log"
         url: /documentation/installation-initial/
@@ -58,7 +58,7 @@ documentation:
         url: /documentation/installation-sidecar-plugin/
       - title: "Events & Attacks"
         url: /documentation/installation-sidecar-plugin/
-  - title: API
+  - title: "API"
     children:
       - title: "Introduction"
         url: /documentation/installation-initial/
@@ -66,7 +66,7 @@ documentation:
         url: /documentation/installation-reverse-proxy/
       - title: "cURL and CLI Tool"
         url: /documentation/installation-reverse-proxy/
-  - title: Reference
+  - title: "Reference"
     children:
       - title: "The Challenge Process"
         url: /documentation/installation-initial/
