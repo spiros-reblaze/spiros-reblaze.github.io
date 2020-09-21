@@ -4,6 +4,8 @@ title:
 author_profile: true
 ---
 
+## What it is
+
 Curiefense is an open source security suite that introduces session profiling, human detection, bot management and OWASP top 10 protection (aka WAF) for Envoy Proxy.
 
 ## Created by
