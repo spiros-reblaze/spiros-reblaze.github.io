@@ -1,9 +1,9 @@
 # main links
 main:
   - title: "Home"
-    url: https://https://opencurie.github.io/
+    url: /
   - title: "Documentation"
-    url: https://opencurie.github.io/documentation/
+    url: /documentation/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
