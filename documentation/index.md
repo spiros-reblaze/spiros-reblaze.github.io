@@ -1,5 +1,6 @@
 ---
 layout: home
+title: Curiefense Documentation
 permalink: /documentation/
 sidebar:
   nav: "documentation"
