@@ -1,9 +1,8 @@
 ---
 layout: home
+title: CurieFense
 author_profile: true
 ---
-
-index follows:
 
 ### _(kiri-fense)_
 
