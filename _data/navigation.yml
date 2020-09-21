@@ -1,7 +1,9 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title: "Home"
+    url: https://https://opencurie.github.io/
+  - title: "Documentation"
+    url: https://opencurie.github.io/documentation/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
@@ -10,3 +12,23 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+  
+  docs:
+  - title: Welcome to Curiefense
+    children:
+      - title: "Introduction"
+        url: /docs/introduction/
+  - title: Installation
+    children:
+      - title: "Initial Steps"
+        url: /docs/initial-installation/
+      - title: "Reverse Proxy"
+        children:
+           - title: "Reverse Proxy"
+           url: /docs/structure/
+      - title: "Installation"
+        url: /docs/installation/
+      - title: "Upgrading"
+        url: /docs/upgrading/
+
+  
