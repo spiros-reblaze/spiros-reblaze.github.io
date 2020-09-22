@@ -2,10 +2,9 @@
 layout: home
 title: Curiefense Documentation
 permalink: /documentation/
-toc: true
-toc_label: "On this page"
 sidebar:
   nav: "documentation"
+toc: true
 ---
 
 ![Curiefense logo](/assets/images/9_open_icon.png "Curiefense logo"){: style="padding:10px; width:35%; height:35%;"}
